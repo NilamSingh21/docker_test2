@@ -1,7 +1,5 @@
 FROM alpine:3.7
 
-MAINTAINER ybmsr <ybmadhu404@gmail.com>
-
 WORKDIR /usr/apps/hello-docker/
 
 RUN apk add --update bash
